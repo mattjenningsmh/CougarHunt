@@ -164,7 +164,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
         val dest = "${destination.latitude},${destination.longitude}"
 
         // Replace with your actual API Key from Google Cloud Console
-        val apiKey = "AIzaSyBf2YgiF4CnMDYaIxG8H0becZT9j_GhOsY"
+        val apiKey = "$YOUR_API_KEY"
 
         // Create Retrofit instance
         val retrofit = Retrofit.Builder()
